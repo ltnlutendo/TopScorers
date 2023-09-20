@@ -1,5 +1,5 @@
 # Top Scorers
-A short coding challenge
+A short coding challenge, this code was written in Python.
 
 ## Assumptions made
 1. Input text/csv "Score" column has only numbers, error handling wasn't implemented for this case.
@@ -27,9 +27,7 @@ This Python script is designed to determine the top scorer from a CSV file or te
 
 7. **Display**: The `display_person_info` function is responsible for displaying each top scorer's name. Additionally, the script displays the top scorer's score after listing their names.
 
-8. **Main Function**: The `main` function orchestrates the execution of the script. It reads the input, processes the data, identifies the top scorers, sorts and displays their information, and terminates the script gracefully.
-
-9. **Versioning**: The script includes a version number (Version: 2) and an author's name and date to provide context for maintenance and collaboration.
+8. **Main Function**: The `main` function orchestrates the execution of the script. It reads the input, processes the data, identifies the top scorers, sorts and displays their information, and terminates the script.
 
 ## How to Use
 
