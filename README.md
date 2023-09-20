@@ -7,11 +7,11 @@ A short coding challenge
 3. There are no empty "cells", this assumption is similar to 1.
 4. If there is data in the file, there will always be a top scorer, even if there is one person.
    
-### Introduction
+## Introduction
 
 This Python script is designed to determine the top scorer from a CSV file or text file containing data about individuals and their scores. The script reads the input data, parses it into dictionaries, identifies the top scorer(s), sorts them alphabetically by name, and displays their names along with their scores.
 
-### Design Choices
+## Design Choices
 
 1. **Modular Design**: The code is structured into several functions to promote modularity and readability. Each function has a specific responsibility, making the code easier to understand and maintain.
 
@@ -31,19 +31,19 @@ This Python script is designed to determine the top scorer from a CSV file or te
 
 9. **Versioning**: The script includes a version number (Version: 2) and an author's name and date to provide context for maintenance and collaboration.
 
-### How to Use
+## How to Use
 
 1. Run the script in a terminal.
 2. Provide the CSV data through standard input (e.g., by piping a CSV file or manually entering data).
 3. The script will identify the top scorers, sort them alphabetically, and display their names and scores.
 
-### Example
+## Example
 
 ```bash
 $ cat TestData.csv | python TopScorers.py
 ```
 
-### Conclusion
+## Conclusion
 
 This Python script is designed with a focus on readability, maintainability, and robust error handling. It allows for flexible input methods and provides clear feedback to the user. The modular structure ensures that future updates and enhancements can be made with ease while maintaining code quality.
 
